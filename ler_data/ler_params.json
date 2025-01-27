@@ -5,7 +5,7 @@
     "size": "100000",
     "batch_size": "50000",
     "cosmology": "LambdaCDM(H0=70.0 km / (Mpc s), Om0=0.3, Ode0=0.7, Tcmb0=0.0 K, Neff=3.04, m_nu=None, Ob0=None)",
-    "snr_finder": "<bound method GWSNR.snr of <gwsnr.gwsnr.GWSNR object at 0x11db13d60>>",
+    "snr_finder": "<bound method GWSNR.snr of <gwsnr.gwsnr.GWSNR object at 0x1077fbd00>>",
     "json_file_names": "{'ler_params': 'ler_params.json', 'unlensed_param': 'unlensed_param.json', 'unlensed_param_detectable': 'unlensed_param_detectable.json', 'lensed_param': 'lensed_param.json', 'lensed_param_detectable': 'lensed_param_detectable.json'}",
     "interpolator_directory": "./interpolator_pickle",
     "gw_param_sampler_dict": {
@@ -53,8 +53,6 @@
         "snr_th_net": "8.0",
         "ann_path_dict": "None"
     },
-    "detectable_unlensed_rate_per_year": 0.0,
-    "detectability_condition+unlensed": "step_function",
-    "detectable_lensed_rate_per_year": 0.10018309906890076,
+    "detectable_lensed_rate_per_year": 0.05009154953445038,
     "detectability_condition+lensed": "step_function"
 }
